@@ -516,8 +516,7 @@ button {
 }
 
 .wrap-text {
-  margin-top: 30px;
-  margin-bottom: 16px;
+  padding: 30px 0;
 }
 .section-title-team {
   color: var(--text-title);
@@ -533,6 +532,7 @@ button {
   line-height: 1.18;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 .team-list-social {
   display: flex;
@@ -749,10 +749,13 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.modal-icon {
+/* .modal-icon {
   margin-top: 3px;
-}
+} */
 
 /* форма */
 .form {
@@ -828,12 +831,12 @@ button {
 }
 .check-box {
   margin-top: 20px;
-  align-items: center;
-  justify-content: center;
 }
 .check-icon {
   display: flex;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 .check-item {
   width: 16px;
