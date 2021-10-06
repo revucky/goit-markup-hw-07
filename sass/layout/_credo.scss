@@ -1,0 +1,39 @@
+.credo {
+  display: flex;
+}
+.credo-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.features {
+  padding-bottom: 0;
+}
+.wrap-credo-icon {
+  background: var(--bg-icon-credo);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.credo-icon {
+  height: 70px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 25px;
+}
+.section-title-feature {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.section .text-feature {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
