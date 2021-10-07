@@ -19,10 +19,9 @@
   border-radius: 4px;
   overflow: hidden;
   &:last-child {
-  margin-right: 0;
+    margin-right: 0;
+  }
 }
-}
-
 
 .wrap-text {
   padding: 30px 0;
@@ -43,9 +42,7 @@
   margin-top: 10px;
   margin-bottom: 16px;
 }
-.team-list-social {
-  display: flex;
-}
+
 .team-list-social {
   display: flex;
   align-items: center;
@@ -66,10 +63,10 @@
   fill: var(--team-social-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover {
-  background-color: var(--text-accent-hf);
-  fill: var(--text-white);
-}
+  &:hover {
+    background-color: var(--text-accent-hf);
+    fill: var(--text-white);
+  }
 }
 
 .team-social {
