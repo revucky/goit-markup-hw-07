@@ -541,12 +541,15 @@ button {
 
 .footer-join__list {
   margin-left: 70px;
+  display: flex;
   /* outline: 1px solid purple; */
 }
 
 .footer-title {
   font-weight: 700;
   font-size: 14px;
+  display: flex;
+  margin-left: 70px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -555,11 +558,11 @@ button {
 }
 
 .footer-join__item {
-  display: block;
+  display: flex;
   width: 206px;
 }
 
-.footer-flex {
+.footer-item-social {
   display: flex;
 }
 

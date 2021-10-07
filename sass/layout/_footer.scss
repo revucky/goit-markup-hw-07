@@ -50,11 +50,14 @@
 }
 .footer-join__list {
   margin-left: 70px;
+  display: flex;
   /* outline: 1px solid purple; */
 }
 .footer-title {
   font-weight: 700;
   font-size: 14px;
+  display: flex;
+  margin-left: 70px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -62,12 +65,15 @@
   margin-bottom: 20px;
 }
 .footer-join__item {
-  display: block;
+  display: flex;
   width: 206px;
 }
-.footer-flex {
+.footer-item-social {
   display: flex;
 }
+// .footer-flex {
+//   display: flex;
+// }
 .footer-join__link--social {
   width: 44px;
   height: 44px;
